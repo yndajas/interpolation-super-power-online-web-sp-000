@@ -2,7 +2,7 @@
 
 def display_rainbow(colours)
   colours_initial = for i in colours do
-    i[0].unshift
+    i[0].upcase.unshift
   end
-  puts "#{colours[0]"
+  puts "#{colours_intitial[0]}: #{colours[0]}"
 end
